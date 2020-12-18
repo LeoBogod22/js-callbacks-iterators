@@ -9,3 +9,9 @@
 var foods = ["pizza", "tacos", "ice cream", "sushi"];
 
 // your code here
+fruits.forEach(myFunction);
+
+
+function myFunction(item, index) {
+"i likke " + item + "<br>";
+}
